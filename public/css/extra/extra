@@ -1,0 +1,142 @@
+.navbar2 {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    padding: 8px;
+    /* overflow-x: hidden; */
+  }
+  
+  .navbar2 a {
+    float:right;
+    line-height: 8px;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    padding-left: 26px;
+    padding-right: 45px;
+    transition: 0.52s;
+
+    text-decoration: none;
+    position: relative;
+    font-family:monospace;
+    font-weight: bold;
+  }
+  
+  .navbar2 a:hover {
+    background-color: rgb(240, 237, 104);
+    border-radius: 23px;
+    transform: scale(.8);
+  }
+  .navbar2 .technolo{
+    float:left;
+    line-height: 8px;
+  }
+  
+  /* .active {
+    background-color: #6d817a;
+  } */
+  
+  @media screen and (max-width: 500px) {
+    .navbar2 a {
+      float: none;
+      display: block;
+      width: 100%;
+      /* padding-right: 21px; */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+                 /*============ desktop and laptob =============== */
+@media only screen and (min-width:1024px){
+    .hero-slider .carousel-cell .inner .title11{
+    color: lavenderblush; 
+    font-weight: bold;
+
+    }
+}
+
+
+      /*================= tablets and ipads============= */
+@media only screen and (min-width:769px) and (max-width:1024px){
+        .hero-slider .carousel-cell .inner .title{
+        text-transform: inherit;
+        font-weight: bold;
+        color: lawngreen;
+        }
+      }
+
+           /*=========== mpbile device media query============ */
+@media only screen and (max-width:768px){
+        .hero-slider .carousel-cell .inner .title{
+        color: darkorange;
+        }
+        .hero-slider .carousel-cell .inner .title11{
+        /* display: block; */
+        color: khaki;
+        } 
+        /* .hero-slider .carousel-cell img{
+        width: 100%;
+        height: auto;
+        } */
+}
+
+          /*============== modile devoce 408 ================ */
+@media only screen and (max-width:436px){
+    .hero-slider .carousel-cell .inner .title11{
+    color: lawngreen;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 10%;
+    box-sizing: border-box;
+    }
+    .hero-slider .carousel-cell .inner .title{
+    color: lemonchiffon;
+    }
+}
+
+
+
+
+
+
+<div class="medical-box">
+<section class="brand-container">
+  <div class="swiper-container brand-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://www.clipartmax.com/png/middle/63-631198_medic-symbol-medic-sticker-by-anmgoug-on-redbubble-medicine.png" style="width: 210px; height: 110px;">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://w7.pngwing.com/pngs/255/658/png-transparent-emoji-tablet-pharmaceutical-drug-sticker-combined-oral-contraceptive-pill-emoji-blue-text-logo.png" style="width: 210px; height: 110px;">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://image.emojipng.com/875/12802875.jpg" style="width: 210px; height: 110px;">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://img.favpng.com/0/23/22/nurse-s-cap-nursing-medicine-png-favpng-s4kzw8KbgMWk1x6dEYcaz1G0G.jpg" style="width: 210px; height: 110px;">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://w7.pngwing.com/pngs/612/1022/png-transparent-stethoscope-heart-myocardial-infarction-physician-stetoskop-love-text-medicine.png" style="width: 210px; height: 110px;">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://w7.pngwing.com/pngs/232/1009/png-transparent-emoji-syringe-injection-sticker-sms-doctor-glass-sticker-emoticon.png" style="width: 210px; height: 110px;">
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+
+

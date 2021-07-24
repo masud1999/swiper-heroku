@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   {{>header}}
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+{{>navber}}
+
+<div class="wrapper_login" >
+	<div class="login_form">
+		<div class="logi_title" >
+		Login Form
+		</div>
+<form action="/login" method="POST">
+  <div class="login_form_wrap">
+				{{!-- <div class="input_grp"> --}}
+					<div class="input_log_wrap">
+						<label for="email">Email</label>
+						<input type="text" id="email" name="email">
+					</div>
+					<div class="input_log_wrap">
+						<label for="password">Password</label>
+						<input type="text" id="pass" name="password">
+					</div>
+
+					
+				{{!-- </div> --}}
+        
+        <div class="input_log_wrap">
+					<input type="submit" value="Login Now" class="log_btn">
+				</div>
+        
+        <div class="revembar_me">
+         <a href="">Forgot Paaword</a>
+         <small>
+          "Don't have an account ?"
+          <a href="/registar">Register</a>
+        </small>
+        </div>
+        </div>
+
+</form>
+</div>
+</div>
+
+
+{{>footer}}
+
+ <script src="js/main.js"></script>
+ 
+</body>
+</html> 
