@@ -530,8 +530,10 @@ display: flex;
    }
    @media only screen and (max-width:768px){
     .footer-hed{
-        height: auto;
+        height: 100%;
         display: block;
+        width: 100%;
+        object-fit: cover;
     }
    }
 
@@ -732,8 +734,8 @@ display: flex;
 
 
 
-/* 
-gallary */
+/* ==================
+                      gallary =====================*/
 
 .gallery .box-container{
   display: flex;
@@ -1139,7 +1141,10 @@ gallary */
 .xzoom-thumbs img{
   border:1px solid white;
 }
-
+.xzoom{
+  height: 75px;
+  width:420px;
+}
 /*Change the colour*/
 .active img{border:1px solid #333 !important;}
 /* .xzoom-preview{
